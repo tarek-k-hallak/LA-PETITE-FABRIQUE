@@ -280,21 +280,6 @@ h3.menu-item-title {
     background: url("../images/Home/jumbotron_768.jpg") no-repeat;
     height: 432px;
   }
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    padding: 10px;
-    margin: 0 50px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #961d49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: 0.7em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
   /* End Home Page */
 }
 /*----------------- End small devices ----------------------*/
@@ -304,16 +289,16 @@ h3.menu-item-title {
   /*------ Header ----------*/
   .navbar-brand {
     padding: 0;
-    height: 80px;
+    height: 12vw;
   }
   .navbar-brand h1 {
     font-size: 5vw;
   }
   .navbar-brand p {
-    font-size: 2.2vw;
+    font-size: 2.5vw;
   }
   .navbar-brand img {
-    height: 2em;
+    height: 2.5em;
   }
   .navbar-header button.navbar-toggle {
     padding: 2vw;
@@ -322,7 +307,7 @@ h3.menu-item-title {
 
   /*---- slinding btn -----*/
   #collapsable-nav a {
-    font-size: 1.3em;
+    font-size: 1em;
   }
   #collapsable-nav a span {
     /* menu glyph */
@@ -333,14 +318,14 @@ h3.menu-item-title {
 
   /*---- phone number -----*/
   #call-btn > a {
-    border: 2px solid #557c3e;
+    border: 2px solid #2f4d1e;
     background-color: #292929;
     text-shadow: 1px 1px 1px #000000;
     color: #557c3e;
-    font-size: 1.4em;
+    font-size: 1em;
     display: block;
-    margin: -5px 15px;
-    padding: 10px;
+    margin: 0 15px;
+    padding: 5px;
   }
   #call-btn a:hover {
     text-shadow: 1px 1px 1px #9b9b9b;
@@ -351,17 +336,15 @@ h3.menu-item-title {
     font-style: italic;
     font-size: 0.8em;
     letter-spacing: 0.1em;
-    margin-top: 5px;
+    margin: 5px 0 15px;
     text-transform: uppercase;
   }
   /*---- phone number -----*/
 
   /*--------- Body Home ---------*/
   .container .jumbotron {
-    margin-top: 20px;
     padding: 0;
   }
-
   /*--------- Body Home ---------*/
 
   /*--------- Body Menu ---------*/
