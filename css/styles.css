@@ -379,7 +379,8 @@ h3.menu-item-title {
 
 @media (max-width: 479px) {
   #menu-tile,
-  #specials-tile {
+  #specials-tile,
+  #map-tile {
     height: 170px;
   }
   /*--------- Body Menu ---------- */
