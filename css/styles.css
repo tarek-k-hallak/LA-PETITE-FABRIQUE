@@ -31,7 +31,7 @@ body {
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #000000;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   line-height: 1;
   letter-spacing: 0.1em;
 }
@@ -171,30 +171,25 @@ body {
 /*----------------------Start MENU CATEGORY PAGE -----------------------*/
 .category-tile {
   position: relative;
-  border: 2px solid rgb(63, 12, 31);
+  border: 2px solid #2f4d1e;
   overflow: hidden;
   width: 200px;
   height: 200px;
-  margin: 0 auto 15px;
+  margin: 0 auto 20px;
 }
 .category-tile span {
   position: absolute;
   bottom: 0;
-  right: 0;
   width: 100%;
   text-align: center;
   font-size: 1.2em;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: #2f4d1e;
   color: #fff;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-#menu-categories-title + div {
-  margin-bottom: 50px;
 }
 /*----------------------End MENU CATEGORY PAGE --------------------------*/
 
@@ -202,6 +197,7 @@ body {
 h2 {
   color: #557c3e;
   text-shadow: 1px 1px 1px #000;
+  margin: 0 0 50px;
 }
 .menu-item-tile {
   margin-bottom: 40px;

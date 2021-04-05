@@ -3,4 +3,5 @@ git status
 git add .
 git commit -m "first commit" .
 git remote add origin https://github.com/Tarek-Hallak/LA-PETITE-FABRIQUE.git
+git commit -m "messge"
 git push -u origin master
