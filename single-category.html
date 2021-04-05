@@ -4,28 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>La Petite Fabrique</title>
+    <link rel="shortcut icon" type="image/png" href="/images/md.png"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
+
 <body>
-  <header>
+ <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
+
         <div class="navbar-header">
+          <!------------------ Image Logo ------------------------------>  
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
+          <!------------------ Image Logo-------------------------------->  
 
+          <!------------------ Resturant Name --------------------------->
           <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+            <a href="index.html"><h1>La Petite Fabrique</h1></a>
             <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
-            </p>
+              <img src="images/sm.png" alt="Logo" class="hidden-lg hidden-md">
+              <span>WHERE FOOD MATTERS</span>
+            </p>                
           </div>
+          <!------------------ Resturant Name --------------------------->
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -33,10 +40,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
+        </div> 
+
+       <!--------------------- Sliding button --------------------------->
+       <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li class="visible-xs">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span> Home</a>
@@ -53,41 +61,49 @@
               <a href="#">
                 <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
             </li>
+            <br class="hidden-xs">
             <li id="phone" class="hidden-xs">
               <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
+                <span>410 - 602 - 5008</span>
+              </a> 
+              <div>* We Deliver</div>
             </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-  </header>
+          </ul>
+       </div>
+       <!--------------------- Sliding button --------------------------->
+     </div>
+   </nav>
+ </header>
 
-  <div id="call-btn" class="visible-xs">
+<!------------------ XS Phone number ------------------------------------>   
+  <div id="call-btn" class="visible-xs ">
     <a class="btn" href="tel:410-602-5008">
     <span class="glyphicon glyphicon-earphone"></span>
     410-602-5008
     </a>
   </div>
-  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+  <div id="xs-deliver" class="text-center visible-xs ">* We Deliver</div>
+<!------------------ XS Phone number ----------------------------------->   
 
+<!------------------ Body Menu ------------------------------------------------------------->  
   <div id="main-content" class="container">
-    <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+    <h2 id="menu-categories-title" class="text-center">~ Lunch Menu ~</h2>
+    
     <div class="text-center">Lunch is not served until after 1pm.</div>
-
     <section class="row">
+
       <div class="menu-item-tile col-md-6">
         <div class="row">
           <div class="col-sm-5">
             <div class="menu-item-photo">
               <div>D01</div>
-              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+              <img class="img-responsive" width="250" height="150" src="images/single category/Turkey escalopes & giant couscous.jpg" alt="Item">
             </div>
             <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
           <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+            <h3 class="menu-item-title">Turkey escalopes & giant couscous</h3>
+            <p class="menu-item-details">Tick the healthy and budget-friendly boxes with our turkey escalopes and giant couscous. It's tasty, filling and packed with good-for-you ingredients.</p>
           </div>
         </div>
         <hr class="visible-xs">
@@ -98,13 +114,13 @@
           <div class="col-sm-5">
             <div class="menu-item-photo">
               <div>D02</div>
-              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+              <img class="img-responsive" width="250" height="150" src="images/single category/Easy healthy recipes.jpg" alt="Item">
             </div>
-            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+            <div class="menu-item-price ">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
           <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+            <h3 class="menu-item-title">Pork - souvlaki</h3>
+            <p class="menu-item-details">Serve our speedy pork souvlaki skewers when you’re in need of a quick and easy midweek meal. Serve with flatbreads and yogurt and chilli sauces on the side.</p>
           </div>
         </div>
         <hr class="visible-xs">
@@ -117,13 +133,13 @@
           <div class="col-sm-5">
             <div class="menu-item-photo">
               <div>D03</div>
-              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+              <img class="img-responsive" width="250" height="150" src="images/single category/Spiced salmon & tomato traybake.jpg" alt="Item">
             </div>
             <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
           <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+            <h3 class="menu-item-title">Spiced salmon & tomato traybake</h3>
+            <p class="menu-item-details">Enjoy this healthy spiced salmon and tomato traybake with a mild curry flavour for a quick and easy midweek meal. Serve with naan bread and lemon wedges.</p>
           </div>
         </div>
         <hr class="visible-xs">
@@ -134,13 +150,13 @@
           <div class="col-sm-5">
             <div class="menu-item-photo">
               <div>D04</div>
-              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+              <img class="img-responsive" width="250" height="150" src="images/single category/Steaks with goulash sauce & sweet potato fries.jpg" alt="Item">
             </div>
             <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
           <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+            <h3 class="menu-item-title">Steaks with goulash sauce </h3>
+            <p class="menu-item-details">Enjoy fillet steak with sauce for a healthy dinner that also boasts sweet potato fries, spinach and cherry tomatoes. You'll be getting all of your 5-a-day.</p>
           </div>
         </div>
         <hr class="visible-xs">
@@ -153,13 +169,13 @@
           <div class="col-sm-5">
             <div class="menu-item-photo">
               <div>D05</div>
-              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+              <img class="img-responsive" width="250" height="150" src="images/single category/Ginger chicken & green bean noodles.jpg" alt="Item">
             </div>
             <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
           <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+            <h3 class="menu-item-title">Ginger chicken & green bean noodles</h3>
+            <p class="menu-item-details">Try this speedy one-pan ginger chicken with noodles and green beans as a quick and easy midweek meal. It's healthy, low in fat and calories, too.</p>
           </div>
         </div>
         <hr class="visible-xs">
@@ -170,13 +186,47 @@
           <div class="col-sm-5">
             <div class="menu-item-photo">
               <div>D06</div>
-              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+              <img class="img-responsive" width="250" height="150" src="images/single category/Meatball & tomato soup.jpg" alt="Item">
             </div>
             <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
           <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+            <h3 class="menu-item-title">Meatball & tomato soup</h3>
+            <p class="menu-item-details">Get three of your 5-a-day in one serving with this healthy, low-calorie tomato soup. The addition of meatballs and giant couscous means it's filling, too.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D07</div>
+              <img class="img-responsive" width="250" height="150" src="images/single category/Sweetcorn fritters with chipotle cod.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Sweetcorn fritters with chipotle cod</h3>
+            <p class="menu-item-details">Rustle up some sweetcorn fritters to enjoy with cod in a spicy tomato sauce for a speedy midweek meal. It's ready in just 20 minutes.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D08</div>
+              <img class="img-responsive" width="250" height="150" src="images/single category/Pesto chicken salad.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Pesto chicken salad</h3>
+            <p class="menu-item-details">Serve this pesto chicken and couscous salad in lettuce leaves for a healthy supper. With added sundried tomatoes and pine nuts, it has lots of texture.</p>
           </div>
         </div>
         <hr class="visible-xs">
@@ -188,35 +238,41 @@
 
   </div><!-- End of #main-content -->
 
-  <footer class="panel-footer">
-    <div class="container">
-      <div class="row">
+<!------------------ Footer ------------------------------------------------------------->   
+ <footer class="panel-footer">
+   <div class="container">
+     <div class="row">
         <section id="hours" class="col-sm-4">
-          <span>Hours:</span><br>
-          Sun-Thurs: 11:15am - 10:00pm<br>
-          Fri: 11:15am - 2:30pm<br>
-          Saturday Closed
+          <span>Hours:</span>
+          <br>Sun-Thurs: 11:15am - 10:00pm
+          <br>Fri: 11:15am - 2:30pm
+          <br>Saturday Closed
           <hr class="visible-xs">
-        </section>
+       </section>
+
         <section id="address" class="col-sm-4">
-          <span>Address:</span><br>
-          7105 Reisterstown Road<br>
-          Baltimore, MD 21215
+        <span>Address:</span>
+          <br>Le Bourg
+          <br>71110 Saint-Didier-en-Brionnais
+          <br>Baltimore, MD 21215
           <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
           <hr class="visible-xs">
         </section>
+
         <section id="testimonials" class="col-sm-4">
-          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"The best France restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
           <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+          <p>"A healthy food means a healthy body!"</p>
         </section>
-      </div>
-      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
-    </div>
-  </footer>
+     </div>
+     <div class="text-center">&copy; Copyright La Petite Fabrique 2021</div>
+  </div>
+ </footer>
+<!------------------ Footer ------------------------------------------------------------->   
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
-</body>
+ </body>
 </html>
