@@ -151,7 +151,7 @@ body {
 #hours span,
 #address span {
   font-size: 2em;
-  color: #284915;
+  color: #557c3e;
   text-shadow: 1px 2px #0e0000;
 }
 #address p {
@@ -180,16 +180,22 @@ body {
 .category-tile span {
   position: absolute;
   bottom: 0;
+  right: 0;
   width: 100%;
   text-align: center;
   font-size: 1.2em;
   text-transform: uppercase;
-  background-color: #2f4d1e;
+  background-color: #557c3e;
   color: #fff;
   opacity: 0.7;
 }
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin: 0 100px 50px;
+  text-align: center;
 }
 /*----------------------End MENU CATEGORY PAGE --------------------------*/
 
@@ -197,7 +203,7 @@ body {
 h2 {
   color: #557c3e;
   text-shadow: 1px 1px 1px #000;
-  margin: 0 0 50px;
+  margin: 0 0 15px;
 }
 .menu-item-tile {
   margin-bottom: 40px;
